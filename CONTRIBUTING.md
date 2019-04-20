@@ -2,21 +2,21 @@
 
 ## Contributing code
 
-1. Fork and clone the repository.
+1.  Fork and clone the repository.
 
-1. Install the dependencies:
+1.  Install the dependencies:
 
     ```
     bin/setup
     ```
 
-1. Create a new branch from master
+1.  Create a new branch from master
 
     ```
     git checkout -b my-branch-name
     ```
 
-1. Make your changes, following our [code-style] (see below).
+1.  Make your changes, following our [code-style][] (see below).
 
 1. Commit your changes, with a [good commit message][commit].
 

@@ -2,6 +2,10 @@
   "author": "thoughtbot, inc.",
   "devDependencies": {
     "@thoughtbot/stylelint-config": "^1.0.1",
+    "remark-cli": "^6.0.1",
+    "remark-lint-ordered-list-marker-value": "^1.0.2",
+    "remark-lint-unordered-list-marker-style": "^1.0.2",
+    "remark-preset-lint-recommended": "^3.0.2",
     "stylelint": "^9.10.1"
   },
   "license": "MIT",
@@ -11,6 +15,7 @@
     "url": "https://github.com/thoughtbot/design-system.git"
   },
   "scripts": {
+    "remark": "npx remark --frail .",
     "stylelint": "npx stylelint 'src/**/*.scss'"
   },
   "version": "0.1.0"

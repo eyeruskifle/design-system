@@ -21,7 +21,7 @@ project adheres to [Semantic Versioning](http://semver.org).
 
 [unreleased]: https://github.com/thoughtbot/design-system/compare/v0.1.0...HEAD
 
-## [0.1.0] - 2019-04-19
+## [0.1.0][0.1.0] - 2019-04-19
 
 ### Changed
 

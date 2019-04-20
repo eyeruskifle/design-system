@@ -1,3 +1,6 @@
+remark:
+  config_file: .remarkrc
+  enabled: true
 scss:
   enabled: false
 stylelint:
