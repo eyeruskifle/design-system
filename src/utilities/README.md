@@ -5,7 +5,7 @@
 ### Margin utilities
 
 ```html
-<div class="tbds-margin-top-2">
+<div class="tbds-margin-block-start-2">
   Some content
 </div>
 ```
@@ -13,7 +13,7 @@
 ### Padding utilities
 
 ```html
-<div class="tbds-padding-bottom-1">
+<div class="tbds-padding-block-end-1">
   Some content
 </div>
 ```
@@ -45,14 +45,14 @@
 ```
 
 ```html
-<p class="tbds-text-align-right">
-  Right-align text
+<p class="tbds-text-align-end">
+  Align text to the end of the content flow
 </p>
 ```
 
 ```html
-<p class="tbds-text-align-left">
-  Left-align text
+<p class="tbds-text-align-start">
+  Align text to the start of the content flow
 </p>
 ```
 

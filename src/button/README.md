@@ -26,7 +26,7 @@
 
 ```html
 <button class="tbds-button" type="button">
-  <svg class="tbds-button__icon tbds-button__icon--text-to-right">…</svg>
+  <svg class="tbds-button__icon tbds-button__icon--gap-end">…</svg>
 
   Button
 </button>
@@ -38,6 +38,6 @@
 <button class="tbds-button" type="button">
   Button
 
-  <svg class="tbds-button__icon tbds-button__icon--text-to-left">…</svg>
+  <svg class="tbds-button__icon tbds-button__icon--gap-start">…</svg>
 </button>
 ```

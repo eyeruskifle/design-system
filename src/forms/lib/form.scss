@@ -1,7 +1,7 @@
 .tbds-form__label {
   display: block;
   font-weight: $tbds-font-weight-bold;
-  margin-bottom: 0.5rem;
+  margin-block-end: 0.5rem;
 }
 
 .tbds-form__help-text {
@@ -11,18 +11,24 @@
 
 .tbds-form__help-text--block {
   display: block;
-  margin-top: 0.3rem;
+  margin-block-start: 0.3rem;
 }
 
 .tbds-form__text-input {
+  /* stylelint-disable csstools/use-logical */
   appearance: none;
   background-color: #fff;
   border: 1px solid #888;
   border-radius: 4px;
   font-size: 16px;
+  inline-size: 100%;
   margin: 0;
   padding: 0.5rem 0.8rem;
-  width: 100%;
+  /* stylelint-enable */
+
+  @supports (padding-inline: 0) {
+    padding-inline: 0.5rem;
+  }
 
   &:focus {
     border-color: $tbds-brand-blue;
@@ -32,17 +38,23 @@
 }
 
 .tbds-form__textarea {
+  /* stylelint-disable csstools/use-logical */
   appearance: none;
   background-color: #fff;
   border: 1px solid #888;
   border-radius: 4px;
   font-size: 16px;
+  inline-size: 100%;
   line-height: 1.4;
   margin: 0;
-  min-height: 2.25rem;
+  min-block-size: 2.25rem;
   padding: 0.5rem 0.8rem;
   resize: vertical;
-  width: 100%;
+  /* stylelint-enable */
+
+  @supports (resize: block) {
+    resize: block;
+  }
 
   &:focus {
     border-color: $tbds-brand-blue;
@@ -57,7 +69,7 @@
 }
 
 .tbds-form__choice + .tbds-form__choice {
-  margin-top: 1rem;
+  margin-block-start: 1rem;
 }
 
 .tbds-form__choice--inline {
@@ -65,10 +77,10 @@
 }
 
 .tbds-form__choice--inline + .tbds-form__choice--inline {
-  margin-left: 1rem;
-  margin-top: 0;
+  margin-block-start: 0;
+  margin-inline-start: 1rem;
 }
 
 .tbds-form__choice-input {
-  margin-right: 0.75rem;
+  margin-inline-end: 0.75rem;
 }
